@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vikram-thatikonda.github.io/protfolio2/",
+  "homepage": "https://vikram-thatikonda.github.io/Vikram_Protfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
