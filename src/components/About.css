@@ -1,0 +1,115 @@
+.about {
+  padding: var(--section-padding);
+  background: var(--color-bg-alt);
+}
+
+.about-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-image-wrapper {
+  position: relative;
+  width: 430px;
+  height: 540px;
+  overflow: hidden;
+  border-radius: 30px;
+  background: #f8f8f8;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform .4s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.04);
+}
+.about-image-decoration {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 3/4;
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius-xl);
+  z-index: -1;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.about-stat {
+  padding: 24px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-base);
+}
+
+.about-stat:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.about-stat-number {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.about-stat-label {
+  font-size: 0.88rem;
+  color: var(--color-text-tertiary);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .about-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image {
+    max-width: 300px;
+  }
+  
+  .about-image-decoration {
+    max-width: 300px;
+  }
+  
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

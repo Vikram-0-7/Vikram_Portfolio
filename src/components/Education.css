@@ -1,0 +1,98 @@
+.education {
+  padding: var(--section-padding);
+  background: var(--color-bg);
+}
+
+.education-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.education-header {
+  text-align: center;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.education-card {
+  padding: 36px 28px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--border-radius-xl);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.education-icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  margin: 0 auto 20px;
+  color: var(--color-text-primary);
+}
+
+.education-degree {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+}
+
+.education-institution {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.education-meta {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.education-period-tag,
+.education-grade-tag {
+  padding: 4px 14px;
+  border-radius: var(--border-radius-pill);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.education-period-tag {
+  background: var(--color-surface);
+  color: var(--color-text-tertiary);
+  border: 1px solid var(--color-border);
+}
+
+.education-grade-tag {
+  background: var(--color-text-primary);
+  color: var(--color-text-inverse);
+}
+
+@media (max-width: 768px) {
+  .education-cards {
+    grid-template-columns: 1fr;
+  }
+}
