@@ -10,7 +10,7 @@ export const personalInfo = {
   profileImage: `${base}images/profile_avatar.png`,
 };
 export const summary =
-  "I'm an AI Engineer and Full-Stack Developer passionate about building intelligent, scalable applications that solve real-world problems. I specialize in developing AI-powered solutions, modern web applications, and robust backend systems using React, FastAPI, Node.js, Python, and modern development tools. I enjoy transforming innovative ideas into reliable software with clean architecture and user-focused design.";
+  "I'm an AI Engineer and Full-Stack Developer, passionate about building intelligent, scalable applications that solve real-world problems. I specialize in developing AI-powered solutions, modern web applications, and robust backend systems using React, FastAPI, Node.js, Python, and modern development tools. I enjoy transforming innovative ideas into reliable software with clean architecture and user-focused design.";
   export const skills = { 
  
   aiTools: [
