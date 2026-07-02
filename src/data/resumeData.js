@@ -180,13 +180,13 @@ export const education = [
   },
   {
     degree: "Intermediate",
-    institution: "Sri Chaitanya",
+    institution: "Sri Chaitanya Khammam",
     period: "2021 – 2023",
     grade: "CGPA: 9.74",
   },
   {
     degree: "SSC",
-    institution: "",
+    institution: "Sri Chaitanya Khammam",
     period: "",
     grade: "CGPA: 10.0",
   },
