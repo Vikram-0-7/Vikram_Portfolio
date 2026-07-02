@@ -18,14 +18,7 @@ export default function About() {
         className={`about-inner animate-on-scroll ${isVisible ? "visible" : ""}`}
         ref={ref}
       >
-        <div className="about-image-wrapper">
-          <img
-            src={personalInfo.profileImage}
-            alt={personalInfo.name}
-            className="about-image"
-          />
-          <div className="about-image-decoration"></div>
-        </div>
+       
 
         <div className="about-content">
           <span className="section-badge">✦ About Me</span>
@@ -43,7 +36,15 @@ export default function About() {
             ))}
           </div>
         </div>
-      </div>
+       <div className="about-image-wrapper">
+          <img
+            src={personalInfo.profileImage}
+            alt={personalInfo.name}
+            className="about-image"
+            />
+          <div className="about-image-decoration"></div>
+        </div>
+            </div>
     </section>
   );
 }
