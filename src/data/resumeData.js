@@ -176,12 +176,12 @@ export const education = [
     degree: "B.E. Information Technology",
     institution: "CBIT Hyderabad",
     period: "2023 – 2027",
-    grade: "CGPA: 9.04",
+    grade: "CGPA: 8.98",
   },
   {
     degree: "Intermediate",
     institution: "Sri Chaitanya",
-    period: "",
+    period: "2021 – 2023",
     grade: "CGPA: 9.74",
   },
   {

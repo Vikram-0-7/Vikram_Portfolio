@@ -4,8 +4,9 @@ import "./About.css";
 
 const stats = [
   { number: "2+", label: "Internships" },
-  { number: "3+", label: "Projects Built" },
-  { number: "9.04", label: "CGPA" },
+  { number: "10+", label: "Projects Built" },
+  // { number: "9.04", label: "CGPA" },
+  //  { number: "5+", label: "AI web apps Built " },
   { number: "100+", label: "Github contributions" },
 ];
 
@@ -18,12 +19,15 @@ export default function About() {
         className={`about-inner animate-on-scroll ${isVisible ? "visible" : ""}`}
         ref={ref}
       >
-       
+
 
         <div className="about-content">
           <span className="section-badge">✦ About Me</span>
-          <h2 className="section-title">
-            Passionate Developer & AI Enthusiast
+          <p className="about-greeting">
+          </p>
+
+          <h2 className="section-title about-title">
+            Hi, I'm Vikram Thatikonda
           </h2>
           <p className="about-text">{summary}</p>
 
@@ -36,15 +40,15 @@ export default function About() {
             ))}
           </div>
         </div>
-       <div className="about-image-wrapper">
+        <div className="about-image-wrapper">
           <img
             src={personalInfo.profileImage}
             alt={personalInfo.name}
             className="about-image"
-            />
+          />
           <div className="about-image-decoration"></div>
         </div>
-            </div>
+      </div>
     </section>
   );
 }

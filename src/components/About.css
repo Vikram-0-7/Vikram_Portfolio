@@ -2,7 +2,9 @@
   padding: var(--section-padding);
   background: var(--color-bg-alt);
 }
-
+.about-title{
+    white-space: nowrap;
+}
 .about-inner {
    max-width: 1200px;      /* or 1500px */
   margin: 0 auto;
@@ -11,7 +13,12 @@
   gap:190px;
   align-items: center;
 }
-
+.about-greeting{
+    font-size:1.1rem;
+    color:var(--color-text-secondary);
+    font-weight:600;
+    margin:18px 0 8px;
+}
 .about-image-wrapper {
   position: relative;
   width: 430px;
