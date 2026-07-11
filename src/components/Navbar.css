@@ -158,3 +158,25 @@
     display: flex;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    top: 12px;
+    width: calc(100% - 24px);
+  }
+  
+  .navbar-inner {
+    padding: 10px 18px;
+  }
+  
+  .navbar-logo {
+    font-size: 0.95rem;
+  }
+
+  .navbar-mobile {
+    top: 68px;
+    width: calc(100% - 24px);
+    padding: 16px;
+  }
+}
+

@@ -1,13 +1,14 @@
 import { personalInfo, summary } from "../data/resumeData";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import { Download } from "lucide-react";
 import "./About.css";
 
 const stats = [
-  { number: "2+", label: "Internships" },
+  { number: "2", label: "Internships" },
   { number: "10+", label: "Projects Built" },
   // { number: "9.04", label: "CGPA" },
   //  { number: "5+", label: "AI web apps Built " },
-  { number: "100+", label: "Github contributions" },
+  { number: "250+", label: "Github contributions" },
 ];
 
 export default function About() {
@@ -38,6 +39,16 @@ export default function About() {
                 <div className="about-stat-label">{stat.label}</div>
               </div>
             ))}
+            <a
+              href={`${import.meta.env.BASE_URL}vikram_resume_777.pdf`}
+              download="Vikram_Thatikonda_Resume.pdf"
+              className="about-stat resume-download-card"
+            >
+              <div className="about-stat-number" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                Resume <Download size={22} style={{ strokeWidth: 2.5 }} />
+              </div>
+              <div className="about-stat-label">Download PDF</div>
+            </a>
           </div>
         </div>
         <div className="about-image-wrapper">

@@ -81,12 +81,32 @@
   margin-bottom: 8px;
 }
 
+.project-card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
 .project-card-name {
   font-family: var(--font-heading);
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--color-text-primary);
-  margin-bottom: 12px;
+  margin: 0;
+}
+
+.project-github-link {
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-github-link:hover {
+  color: var(--color-text-primary);
+  transform: scale(1.15);
 }
 
 .project-card-description {

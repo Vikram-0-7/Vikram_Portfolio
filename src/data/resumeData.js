@@ -112,20 +112,129 @@ export const experience = [
 
 export const projects = [
   {
-    name: "StudyMate Pro",
-    subtitle: "AI Learning Assistant",
+    name: "DocMind AI",
+    subtitle: "Multi-Agent Document Intelligence Platform",
     description:
-      "A full-stack AI application built with Streamlit and Hugging Face APIs that integrates chatbot, note summarization, and quiz generation features to enhance user productivity through interactive learning.",
-    tech: ["Streamlit", "Hugging Face", "Python", "AI/ML"],
-    image: `${base}images/project_studymate.png`,
+      "A production-grade AI platform that enables semantic document search, multi-document question answering, AI-powered summaries, structured information extraction, and citation-aware responses using Hybrid RAG and LangGraph.",
+    tech: [
+      "React",
+      "FastAPI",
+      "LangGraph",
+      "Groq Llama 3.1",
+      "Hybrid RAG",
+      "ChromaDB",
+      "PostgreSQL"
+    ],
+    image: `${base}images/project_docmind.png`,
+    github: "https://github.com/Vikram-0-7/AI_DOCUMENT_ANALYZER",
   },
+  
+  
+  {
+      name: "SchemesMadeSimple",
+      subtitle: "AI Government Scheme Discovery Platform",
+      description:
+        "A full-stack AI platform that discovers and catalogs government welfare schemes through live web scraping, intelligent information extraction, personalized recommendations, and conversational legal assistance.",
+      tech: [
+        "React",
+        "FastAPI",
+        "PostgreSQL",
+        "Groq",
+        "BeautifulSoup",
+        "DuckDuckGo Search"
+      ],
+      image: `${base}images/project_schemes.png`,
+      github: "https://github.com/Vikram-0-7/SCHEMES_FINDER",
+    },
+  
+    {
+      name: "AI Image Generation SaaS",
+      subtitle: "Text-to-Image Generation Platform",
+      description:
+        "A full-stack AI application that transforms natural language prompts into high-quality images using the ClipDrop API, featuring secure authentication, image history, and scalable REST APIs.",
+      tech: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "ClipDrop API",
+        "JWT"
+      ],
+      image: `${base}images/project_imagegen.png`,
+      github: "https://github.com/Vikram-0-7/AI_Image_Generation_SaaS_Platform",
+    },
+    
+  {
+    name: "Automated Exam Management System",
+    subtitle: "Smart Exam Seating Platform",
+    description:
+      "A web-based examination management system that automates seating allocation, prevents adjacent seating of students from the same department, provides QR-code based identity verification, and delivers real-time seating information to students and administrators.",
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "QR Code" 
+    ],
+    image: `${base}images/project_exam.png`,
+    github: "https://github.com/Vikram-0-7/Seating_Arrangement_for_Exam",
+  },
+  
+  {
+    name: "GIF Maker Studio",
+    subtitle: "AI Video-to-GIF Processing Platform",
+    description:
+    "A modern full-stack application that converts videos into optimized animated GIFs with customizable frame rates, visual filters, AI-powered background removal, and secure shareable links.",
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "FFmpeg",
+      "Sharp",
+      "Skia Canvas"
+    ],
+    image: `${base}images/project_gifmaker.png`,
+    github: "https://github.com/Vikram-0-7/Gif_maker",
+  },
+
+  {
+    name: "Government Problem Finder",
+    subtitle: "AI Civic Problem Discovery Platform",
+    description:
+      "An AI-powered platform that discovers civic problems from Indian government portals using concurrent web scraping, a local RAG pipeline, semantic ranking, and LLM-powered structured extraction for accurate, source-backed insights.",
+    tech: [
+      "React",
+      "FastAPI",
+      "Groq Llama 3.1",
+      "Neon PostgreSQL",
+      "BeautifulSoup",
+      "RAG",
+      "DuckDuckGo"
+    ],
+    image: `${base}images/project_problemfinder.png`,
+    github: "https://github.com/Vikram-0-7/ProblemCrawler",
+  },
+  
+   
+   {
+     name: "StudyMate Pro",
+     subtitle: "AI Learning Assistant",
+     description:
+       "A full-stack AI application built with Streamlit and Hugging Face APIs that integrates chatbot, note summarization, and quiz generation features to enhance user productivity through interactive learning.",
+     tech: ["Streamlit", "Hugging Face", "Python", "AI/ML"],
+     image: `${base}project_photos/StudyMate Pro.png`,
+     github: "https://github.com/Vikram-0-7/AI_Powered_Study_Mate_pro",
+   },
   {
     name: "Medicare App",
     subtitle: "Android Health Platform",
     description:
-      "A multi-screen Android application using Java and SQLite with authentication, prescription generation, profile management, and structured local database for efficient data handling.",
+    "A multi-screen Android application using Java and SQLite with authentication, prescription generation, profile management, and structured local database for efficient data handling.",
     tech: ["Java", "Android", "SQLite", "XML"],
-    image: `${base}images/project_medicare.png`,
+    image: `${base}project_photos/Medicare App.jpg`,
+    github: "https://github.com/Vikram-0-7/Medicalapp",
   },
   {
     name: "Image Compressor",
@@ -133,7 +242,8 @@ export const projects = [
     description:
       "A Flask-based web application for image compression supporting multiple formats (PNG, JPG, WEBP) with responsive UI and real-time preview comparison for before and after results.",
     tech: ["Flask", "Python", "HTML/CSS", "Pillow"],
-    image: `${base}images/project_compressor.png`,
+    image: `${base}project_photos/Image Compressor.png`,
+    github: "https://github.com/Vikram-0-7/Image_Compressor_Flask_App",
   },
 ];
 
@@ -142,6 +252,11 @@ export const certifications = [
     name: "MongoDB Associate Developer Certification",
     issuer: "MongoDB",
     icon: "database",
+  },
+  {
+    name: "Salesforce Certified Agentforce Specialist",
+    issuer: "Salesforce",
+    icon: "AI",
   },
   {
     name: "Web Development",
