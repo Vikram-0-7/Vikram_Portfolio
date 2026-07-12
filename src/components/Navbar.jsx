@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="navbar-inner">
-          <a href="#hero" className="navbar-logo">
+          <a href="#about" className="navbar-logo">
             Vikram Thatikonda
           </a>
 
