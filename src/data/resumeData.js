@@ -113,13 +113,13 @@ export const experience = [
 export const projects = [
   {
     name: "DocMind AI",
-    subtitle: "Multi-Agent Document Intelligence Platform",
+   subtitle: "Hybrid RAG Document Intelligence Platform",
     description:
-      "A production-grade AI platform that enables semantic document search, multi-document question answering, AI-powered summaries, structured information extraction, and citation-aware responses using Hybrid RAG and LangGraph.",
+      "A production-grade AI platform that enables semantic document search, multi-document question answering, AI-powered summaries, structured information extraction, and citation-aware responses using Hybrid RAG and LangChain.",
     tech: [
       "React",
       "FastAPI",
-      "LangGraph",
+      "Langchain",
       "Groq Llama 3.1",
       "Hybrid RAG",
       "ChromaDB",

@@ -22,9 +22,9 @@ const projectHighlights = [
   {
     ...getProjectByName("DocMind AI"),
     highlights: [
-      "Full-stack AI application with real-time processing",
-      "Integrated chatbot with natural language understanding",
-      "Quiz generation engine for interactive learning",
+      "Hybrid RAG pipeline with semantic retrieval and BM25 search",
+"Real-time streaming AI chat with conversation memory and page-level citations",
+"Automated document summarization, comparison, and quiz generation",
     ],
   },
   {
